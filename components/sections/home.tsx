@@ -20,8 +20,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-4xl md:text-6xl font-bold text-gray-900 mb-6"
             >
-              Hi, I'm{" "}
-              <span className="text-blue-600">John Doe</span>
+              Hi, I'm <span className="text-blue-600">Dhanush Kumar</span>
             </motion.h1>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -37,8 +36,8 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-lg text-gray-700 mb-8 max-w-2xl"
             >
-              I create beautiful, responsive, and user-friendly web applications
-              using modern technologies. Passionate about clean code and great user experiences.
+              I work on building and maintaining web applications with attention
+              to structure, performance, and reliability.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -70,17 +69,17 @@ export default function Home() {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-blue-200 to-indigo-300 rounded-full flex items-center justify-center">
                 <div className="w-72 h-72 bg-white rounded-full flex items-center justify-center shadow-2xl">
-                  {/* <Image
+                  <Image
                     src="/images/profile.jpg"
                     alt="Profile"
-                    width={250}
-                    height={250}
+                    width={220}
+                    height={220}
                     className="rounded-full object-cover"
                     onError={(e) => {
-                      // Fallback to a placeholder if image doesn't exist
-                      e.currentTarget.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250' viewBox='0 0 250 250'%3E%3Ccircle cx='125' cy='125' r='125' fill='%23e5e7eb'/%3E%3Ctext x='125' y='140' text-anchor='middle' font-family='Arial' font-size='60' fill='%236b7280'%3EJD%3C/text%3E%3C/svg%3E";
+                      e.currentTarget.src =
+                        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250' viewBox='0 0 250 250'%3E%3Ccircle cx='125' cy='125' r='125' fill='%23e5e7eb'/%3E%3Ctext x='125' y='140' text-anchor='middle' font-family='Arial' font-size='60' fill='%236b7280'%3EJD%3C/text%3E%3C/svg%3E";
                     }}
-                  /> */}
+                  />
                 </div>
               </div>
               <motion.div
