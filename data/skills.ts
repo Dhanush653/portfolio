@@ -19,6 +19,7 @@ export const skillGroups = [
     icon: Layout,
     skills: [
       "React.js",
+      "Next.js",
       "Bootstrap",
       "Tailwind CSS",
     ],
