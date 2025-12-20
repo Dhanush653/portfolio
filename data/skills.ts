@@ -1,62 +1,68 @@
-export const skills = [
+import { Code2, Layout, Server, Database, Wrench, Layers } from "lucide-react";
+
+export const skillGroups = [
   {
-    name: "React",
-    level: 90,
-    category: "Frontend"
+    title: "Languages",
+    icon: Code2,
+    skills: [
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "SQL",
+      "HTML",
+      "CSS",
+    ],
   },
   {
-    name: "Next.js",
-    level: 85,
-    category: "Frontend"
+    title: "Frontend",
+    icon: Layout,
+    skills: [
+      "React.js",
+      "Bootstrap",
+      "Tailwind CSS",
+    ],
   },
   {
-    name: "TypeScript",
-    level: 80,
-    category: "Language"
+    title: "Backend",
+    icon: Server,
+    skills: [
+      "Spring Boot",
+      "Spring MVC",
+      "Hibernate",
+      "FastAPI",
+      "REST APIs",
+      "Microservices Architecture",
+      "RabbitMQ",
+    ],
   },
   {
-    name: "JavaScript",
-    level: 95,
-    category: "Language"
+    title: "Databases",
+    icon: Database,
+    skills: [
+      "MySQL",
+      "Database Design",
+      "ORM",
+    ],
   },
   {
-    name: "Node.js",
-    level: 85,
-    category: "Backend"
+    title: "Tools & Testing",
+    icon: Wrench,
+    skills: [
+      "Git",
+      "GitHub",
+      "Maven",
+      "Postman",
+      "Selenium",
+    ],
   },
   {
-    name: "Python",
-    level: 75,
-    category: "Language"
+    title: "Foundations",
+    icon: Layers,
+    skills: [
+      "Data Structures and Algorithms",
+      "Object-Oriented Programming",
+      "SOLID Principles",
+    ],
   },
-  {
-    name: "HTML/CSS",
-    level: 95,
-    category: "Frontend"
-  },
-  {
-    name: "Tailwind CSS",
-    level: 90,
-    category: "Frontend"
-  },
-  {
-    name: "MongoDB",
-    level: 80,
-    category: "Database"
-  },
-  {
-    name: "PostgreSQL",
-    level: 75,
-    category: "Database"
-  },
-  {
-    name: "Git",
-    level: 85,
-    category: "Tools"
-  },
-  {
-    name: "Docker",
-    level: 70,
-    category: "Tools"
-  }
 ];
