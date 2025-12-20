@@ -16,14 +16,14 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
+    <nav className="fixed top-0 w-full bg-blue-600/90 backdrop-blur-sm z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-2xl font-bold text-blue-600"
+            className="text-2xl font-bold text-white"
           >
             Portfolio
           </motion.div>
@@ -37,7 +37,7 @@ export default function Navbar() {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-white hover:bg-blue-700 transition-colors duration-300 font-medium p-2 rounded-md"
               >
                 {item.name}
               </motion.a>
