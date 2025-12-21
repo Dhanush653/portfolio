@@ -1,62 +1,80 @@
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with payment integration, user authentication, and admin dashboard.",
-    image: "/images/project1.jpg",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    featured: true
+    title: "Retrospective Chat Application",
+    description: "Created a real-time retrospective discussion platform using Spring Boot and WebSockets to facilitate smooth collaboration across remote teams.",
+    image: "/images/retrospective.png",
+    technologies: ["React.js", "Spring Boot", "MySQL", "WebSockets", "Spring Security"],
+    hasMultipleRepos: true,
+    repositories: [
+      {
+        label: "Frontend",
+        url: "https://github.com/Dhanush653/Retrospect-Frontend-main"
+      },
+      {
+        label: "Backend",
+        url: "https://github.com/Dhanush653/Retrospect-Backend-main"
+      }
+    ],
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates and team collaboration features.",
-    image: "/images/project2.jpg",
-    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Socket.io", "Prisma"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    featured: true
+    title: "Book Store Application",
+    description: "Developed a full-stack Book Store application with a Spring Boot backend and React frontend to provide a seamless shopping experience",
+    image: "/images/bookstore.png",
+    technologies: ["React.js", "Spring Boot", "MySQL", "Spring Security", "Bootstrap"],
+    hasMultipleRepos: true,
+    repositories: [
+      {
+        label: "Frontend",
+        url: "https://github.com/Dhanush653/Book_Store-Application-Frontend"
+      },
+      {
+        label: "Backend",
+        url: "https://github.com/Dhanush653/BookStore-Application-backend"
+      }
+    ],
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "A responsive weather dashboard with location-based forecasts and interactive maps.",
-    image: "/images/project3.jpg",
-    technologies: ["React", "OpenWeather API", "Chart.js", "CSS Modules"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    featured: false
+    title: "Pothole Detection System",
+    description: "Developed a pothole detection system using image processing techniques to identify and report road potholes for maintenance purposes.",
+    image: "/images/pothole.jpg",
+    technologies: ["Python", "YOLO", "Machine Learning", "OpenCV"],
+    hasMultipleRepos: false,
+    repositories: [
+      {
+        label: "Frontend",
+        url: "https://github.com/Dhanush653/Pothole-Detection-And-Repair-Management-System"
+      },
+    ]
   },
   {
     id: 4,
     title: "Portfolio Website",
     description: "A modern portfolio website with animations and responsive design.",
-    image: "/images/project4.jpg",
+    image: "/images/portfolio.webp",
     technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    featured: false
+    hasMultipleRepos: false,
+    repositories: [
+      {
+        label: "Frontend",
+        url: "https://github.com/Dhanush653/portfolio"
+      },
+    ]
   },
   {
     id: 5,
-    title: "Blog Platform",
-    description: "A full-featured blog platform with CMS, comments, and social sharing.",
-    image: "/images/project5.jpg",
-    technologies: ["React", "Express.js", "MySQL", "JWT", "Material-UI"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    featured: false
-  },
-  {
-    id: 6,
-    title: "Fitness Tracker",
-    description: "A mobile-first fitness tracking app with workout plans and progress visualization.",
-    image: "/images/project6.jpg",
-    technologies: ["React Native", "Firebase", "Redux", "D3.js"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    featured: false
+    title: "Static Gaming Website",
+    description: "A static website for gaming enthusiasts to explore various games and related content.",
+    image: "/images/game.webp",
+    technologies: ["React","Material-UI", "CSS", "JavaScript"],
+    hasMultipleRepos: false,
+    repositories: [
+      {
+        label: "Frontend",
+        url: "https://github.com/Dhanush653/Gaming-Website-Frontend"
+      },
+    ]
   }
 ];
