@@ -1,26 +1,18 @@
 export const experiences = [
   {
     id: 1,
-    title: "Senior Full Stack Developer",
-    company: "Tech Solutions Inc.",
-    period: "2022 - Present",
-    description: "Led development of multiple web applications using React, Node.js, and cloud technologies. Mentored junior developers and implemented best practices.",
-    technologies: ["React", "Node.js", "AWS", "MongoDB", "TypeScript"]
+    title: "Application Engineer",
+    company: "Maatrum Technologies",
+    period: "Jul 2024 - Present",
+    description: "Working on the development and maintenance of web applications, contributing to both frontend and backend features. Involved in implementing application logic, integrating APIs, and supporting deployment and maintenance activities as part of a collaborative development team.",
+    technologies: ["Spring Boot", "React.js", "Next.js", "MySql", "Docker", "Java", "JavaScript", "TypeScript", "Python", "HTML", "CSS", "Bootstrap", "Tailwind CSS", "Git", "GitHub", "REST APIs"]
   },
   {
     id: 2,
-    title: "Full Stack Developer",
-    company: "Digital Agency Pro",
-    period: "2020 - 2022",
-    description: "Developed responsive web applications and e-commerce platforms. Collaborated with design teams to create pixel-perfect implementations.",
-    technologies: ["React", "Next.js", "PostgreSQL", "Express.js", "Tailwind CSS"]
-  },
-  {
-    id: 3,
-    title: "Frontend Developer",
-    company: "StartupXYZ",
-    period: "2019 - 2020",
-    description: "Built interactive user interfaces and improved application performance. Worked closely with UX designers to enhance user experience.",
-    technologies: ["JavaScript", "React", "CSS", "HTML", "SASS"]
+    title: "Software Developer (Intern)",
+    company: "Maatrum Technologies",
+    period: "Apr 2024 - Jul 2024",
+    description: "Worked on implementing web application features, including frontend development and backend API integration. Responsible for building and updating application components, handling data flow, and supporting feature delivery during the internship period.",
+    technologies: ["React.js", "Spring Boot", "MySql", "JavaScript", "Bootstrap", "Rest APIs", "Git", "GitHub"]
   }
 ];
