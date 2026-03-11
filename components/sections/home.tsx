@@ -58,6 +58,20 @@ export default function Home() {
                 Get In Touch
               </a>
             </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 1.0 }}
+              className="flex justify-center lg:justify-start mt-4"
+            >
+              <a
+                href="/documents/dhanush_resume.pdf"
+                download
+                className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-300"
+              >
+                Download Resume
+              </a>
+            </motion.div>
           </motion.div>
 
           <motion.div
@@ -70,7 +84,7 @@ export default function Home() {
               <div className="w-80 h-80 bg-gradient-to-br from-blue-200 to-indigo-300 rounded-full flex items-center justify-center">
                 <div className="w-72 h-72 bg-white rounded-full flex items-center justify-center shadow-2xl">
                   <Image
-                    src="/images/profile.jpg"
+                    src="/images/Profile.jpg"
                     alt="Profile"
                     width={220}
                     height={220}
